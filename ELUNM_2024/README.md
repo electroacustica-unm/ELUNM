@@ -50,7 +50,7 @@ El proyecto consiste en un sampler de 8 canales con múltiples efectos y posibil
 
 	Una vez hecho esto, tendrás todos los archivos del repositorio ELUNM en tu máquina local.
 
-##		Actualizar el repositorio
+###		Actualizar el repositorio
 
 		En caso hayan actualizaciones en los proyectos del repositorio, puedes actualizar los archivos en tu máquina local de la siguiente manera:
 
