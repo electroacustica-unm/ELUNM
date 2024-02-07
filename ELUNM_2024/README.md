@@ -8,7 +8,7 @@ El proyecto consiste en un sampler de 8 canales con múltiples efectos y posibil
 
 ### 	__lib__
 
-		Contiene las abstracciones usadas en el patch principal `__main__`.
+		Contiene las abstracciones usadas en el patch principal main.
 
 ### 	__samples__
 
@@ -25,38 +25,38 @@ El proyecto consiste en un sampler de 8 canales con múltiples efectos y posibil
 
 ## Cómo usar
 
-	Todo se ejecuta desde el archivo `__main__`
+	Todo se ejecuta desde el archivo main.
 
 	Instrucciones:
 
 		1. Copiar los samples deseados a uno de los directorios de la carpeta samples.
-		2. Abrir el archivo `__main__`.
+		2. Abrir el archivo main.
 		3. Cargar la carpeta correspondiente con los bangs verdes de la sección superior.
 		4. Reproducir los samples en cada instancia y manipular los parámetros a placer.
 
 ## Instalación
 
 	Para descargar y mantener actualizar el proyecto en tu computadora,
-	necesitas tener instalado __git__.
+	necesitas tener instalado git.
 
 	Una vez instalado, los pasos a seguir son:
 
 ### 	Clonar el repositorio
 
 			1. Abre el explorador de archivos y ve hacia la carpeta donde deseas alojar el repositorio.
-			2. Una vez allí, escribe el __cmd__ en la barra de dirección.
+			2. Una vez allí, escribe 'cmd' en la barra de dirección.
 			3. Se abrirá una ventana de la terminal de Windows. En ella, escribe el siguiente comando:
-				`git clone 	https://github.com/electroacustica-unm/ELUNM.git`
+				git clone https://github.com/electroacustica-unm/ELUNM.git
 
-	Una vez hecho esto, tendrás todos los archivos del repositorio __ELUNM__ en tu máquina local.
+	Una vez hecho esto, tendrás todos los archivos del repositorio ELUNM en tu máquina local.
 
 ##		Actualizar el repositorio
 
 		En caso hayan actualizaciones en los proyectos del repositorio, puedes actualizar los archivos en tu máquina local de la siguiente manera:
 
 			1. Abre el explorador de archivos y ve hacia la carpeta donde está alojado el repositorio (ELUNM).
-			2. Una vez allí, escribe el __cmd__ en la barra de dirección.
+			2. Una vez allí, escribe el cmd en la barra de dirección.
 			3. Se abrirá una ventana de la terminal de Windows. En ella, escribe el siguiente comando:
-				`git pull`	
+				git pull
 
 ####  [Link to Official website of ELUNM](https://www.unm.edu.pe/investigacion/direccion-de-innovacion-y-transferencia-tecnologica/laboratorio-de-musica-electroacustica-y-arte-sonoro/elunm/)
