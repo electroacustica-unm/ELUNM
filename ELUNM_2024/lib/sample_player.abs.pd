@@ -1,4 +1,4 @@
-#N canvas -8 -8 960 997 12;
+#N canvas 1916 1033 1920 997 12;
 #X obj 638 116 openpanel;
 #X symbolatom 638 140 50 0 0 0 - - - 0;
 #X obj 638 267 soundfiler;
@@ -184,7 +184,7 @@
 #X obj 895 182 s \$0-filename;
 #X text 1269 788 Explorar este objeto como posible reemplazo de [threshold~].;
 #X msg 546 1005 1;
-#N canvas 953 0 958 988 buttons_configuration 1;
+#N canvas 953 0 958 988 buttons_configuration 0;
 #X msg -259 241 \; \$1-samplefile-array normalize;
 #X obj -259 213 \$0;
 #X obj -259 186 r \$0-normalize;
@@ -240,6 +240,17 @@
 #X connect 29 2 11 0;
 #X restore 100 392 pd buttons_configuration;
 #X text 100 372 Configuración de los botones.;
+#X obj 1189 213 samphold~;
+#X floatatom 1188 159 5 0 0 0 - - - 0;
+#X obj 1188 182 sig~;
+#X obj 1188 281 snapshot~ 21;
+#X floatatom 1188 305 5 0 0 0 - - - 0;
+#X floatatom 1248 159 5 0 0 0 - - - 0;
+#X obj 1114 238 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 1114 262 metro 21;
+#X obj 1248 182 phasor~;
+#X obj 638 394 s \$0-init_bang;
+#X obj 638 368 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X connect 0 0 1 0;
 #X connect 1 0 64 0;
 #X connect 1 0 125 0;
@@ -248,6 +259,7 @@
 #X connect 3 0 67 0;
 #X connect 4 0 5 0;
 #X connect 5 0 68 0;
+#X connect 5 0 141 0;
 #X connect 6 0 0 0;
 #X connect 7 0 23 0;
 #X connect 8 0 65 0;
@@ -343,4 +355,13 @@
 #X connect 118 0 111 0;
 #X connect 125 1 126 0;
 #X connect 128 0 96 0;
+#X connect 131 0 134 0;
+#X connect 132 0 133 0;
+#X connect 133 0 131 0;
+#X connect 134 0 135 0;
+#X connect 136 0 139 0;
+#X connect 137 0 138 0;
+#X connect 138 0 134 0;
+#X connect 139 0 131 1;
+#X connect 141 0 140 0;
 #X coords 0 -1 1 1 160 230 2 100 100;
