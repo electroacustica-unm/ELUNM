@@ -59,4 +59,11 @@ El proyecto consiste en un sampler de 8 canales con múltiples efectos y posibil
 			3. Se abrirá una ventana de la terminal de Windows. En ella, escribe el siguiente comando:
 				git pull
 
+### Dependencias
+
+	Librerías:
+
+		- zexy
+		- else
+
 ####  [Link to Official website of ELUNM](https://www.unm.edu.pe/investigacion/direccion-de-innovacion-y-transferencia-tecnologica/laboratorio-de-musica-electroacustica-y-arte-sonoro/elunm/)
