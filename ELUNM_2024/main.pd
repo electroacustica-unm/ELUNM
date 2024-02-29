@@ -126,9 +126,9 @@
 #X connect 4 8 6 0;
 #X connect 5 0 4 0;
 #X connect 6 0 0 0;
-#X restore 646 46 pd normalize_samples;
-#X obj 646 9 bng 25 250 50 0 empty empty normalize\ all\ samples -3 -8 1 14 #ffe3c6 #000000 #000000;
-#X obj 826 9 bng 25 250 50 0 empty empty reset\ all\ sample\ players -3 -8 1 14 #c6feff #000000 #000000;
+#X restore 1023 46 pd normalize_samples;
+#X obj 1023 9 bng 25 250 50 0 empty empty normalize\ all\ samples -3 -8 1 14 #ffe3c6 #000000 #000000;
+#X obj 1183 9 bng 25 250 50 0 empty empty reset\ all\ sample\ players -3 -8 1 14 #c6feff #000000 #000000;
 #N canvas 643 1027 1920 997 reset_samples 0;
 #X obj 108 70 f;
 #X obj 142 70 + 1;
@@ -154,7 +154,7 @@
 #X connect 4 8 6 0;
 #X connect 5 0 4 0;
 #X connect 6 0 0 0;
-#X restore 826 46 pd reset_samples;
+#X restore 1183 46 pd reset_samples;
 #X obj 223 106 sample_player 0;
 #X obj 383 106 sample_player 1;
 #X obj 543 106 sample_player 2;
@@ -163,6 +163,7 @@
 #X obj 1023 106 sample_player 5;
 #X obj 1183 106 sample_player 6;
 #X obj 1343 106 sample_player 7;
+#X obj 546 -28 multiple_play;
 #X connect 1 0 3 0;
 #X connect 1 1 4 0;
 #X connect 2 0 1 0;

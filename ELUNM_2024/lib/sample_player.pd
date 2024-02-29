@@ -302,6 +302,7 @@
 #X msg 546 1015 1;
 #X obj 1146 1118 r \$0-replay_spigot;
 #X floatatom 1153 1155 5 0 0 0 - - - 0;
+#X obj -56 223 r \$1-multiple_play;
 #X connect 0 0 1 0;
 #X connect 1 0 120 0;
 #X connect 1 0 146 0;
@@ -419,4 +420,5 @@
 #X connect 151 0 93 0;
 #X connect 152 0 21 1;
 #X connect 152 0 153 0;
+#X connect 154 0 47 0;
 #X coords 0 -1 1 1 160 340 2 100 100;
