@@ -47,7 +47,7 @@
 #X obj 944 346 symbol;
 #X msg 946 394 open -bytes 3 \$1 \, start;
 #X obj 111 110 tgl 23 0 c-mainoutput-dspswitch c-mainoutput-dspswitch DSP 30 10 0 10 #00fc04 #0c4410 #000000 0 1;
-#X msg 319 169 \; pd dsp \$1;
+#X msg 29 133 \; pd dsp \$1;
 #X msg 352 39 \; c-mainoutput-panning 0 \; c-mainoutput-dspswitch 1 \; c-mainoutput-volume 1 \;;
 #X msg 322 257 \; c-mainoutput-switch \$1;
 #X obj 322 236 == 0;
@@ -58,8 +58,8 @@
 #X obj 198 72 loadbang;
 #X obj 113 255 hsl 110 30 50 1500 0 0 delay1 empty delay_time -2 -8 0 10 #fcfcc4 #000000 #000000 0 1;
 #X obj 113 305 hsl 110 30 50 10000 0 0 delay2 empty delay_time -2 -8 0 10 #fcfcc4 #000000 #000000 0 1;
-#X obj 42 73 loadbang;
-#X msg 42 94 1;
+#X obj 29 73 loadbang;
+#X msg 29 94 1;
 #X connect 0 0 37 0;
 #X connect 1 0 37 1;
 #X connect 2 0 11 0;
@@ -117,5 +117,5 @@
 #X connect 55 0 3 0;
 #X connect 56 0 43 0;
 #X connect 59 0 60 0;
-#X connect 60 0 47 0;
+#X connect 60 0 48 0;
 #X coords 0 -1 1 1 140 365 2 100 100;
