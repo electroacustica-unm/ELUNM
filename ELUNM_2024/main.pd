@@ -1,4 +1,4 @@
-#N canvas 1807 1031 1920 997 12;
+#N canvas 4 44 1920 997 12;
 #X declare -path ./lib;
 #X declare -lib zexy;
 #X declare -path ./samples/samples0;
@@ -175,6 +175,7 @@
 #X obj 1343 106 sample_player 7;
 #X obj 703 -28 multiple_play;
 #X obj 556 9 bng 25 250 50 0 empty empty samples5 -3 -8 1 14 #00fc04 #000000 #000000;
+#X obj 1503 106 signal_processing;
 #X connect 1 0 3 0;
 #X connect 1 1 4 0;
 #X connect 2 0 1 0;
